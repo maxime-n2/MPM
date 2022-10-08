@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
             for (String currentStudent : studentList) {
                 Log.d("MainActivity", currentStudent);
+
             }
 
 

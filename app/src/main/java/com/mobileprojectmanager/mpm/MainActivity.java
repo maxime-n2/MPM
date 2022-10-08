@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
             String[] studentList = inputStudent.split("[|]");    // Créer un tableau studentList où chaque élement est un nom
 
             for (String currentStudent : studentList) {
+
                 Log.d("MainActivity", currentStudent);
 
 
